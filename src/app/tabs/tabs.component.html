@@ -1,0 +1,10 @@
+<mat-tab-group>
+  <mat-tab *ngIf="isAdmin()" label="Admin">
+    <h2> Admin</h2>
+    <p>Este es el contenido exclusivo para administradores.</p>
+  </mat-tab>
+  <mat-tab *ngIf="isAdmin()||isStudent()" label="Alumno">
+    <h2> Alumno</h2>
+    <p>Este es el contenido exclusivo para alumnos.</p>
+  </mat-tab>
+</mat-tab-group>
