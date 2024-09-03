@@ -5,7 +5,7 @@ import {HttpClient} from "@angular/common/http";
   providedIn: 'root'
 })
 export class RoleServiceService {
-  private apiUrl = 'http://localhost:8080/role';
+  private apiUrl = 'https://nameless-tundra-21093-39f61fc7025f.herokuapp.com/role';
 
   constructor(private http:HttpClient) { }
 
