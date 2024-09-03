@@ -27,7 +27,7 @@ export class TabsComponent implements OnInit{
     }
 
     isStudent(): boolean {
-      return this.userRole ? this.userRole.includes('Student') : false;
+      return this.userRole ? this.userRole.includes('Learner') : false;
     }
 
 
